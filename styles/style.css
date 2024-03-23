@@ -108,6 +108,7 @@ body {
 
 a {
     color: var(--cor-terciaria);
+    text-decoration: none;
 }
 
 .botoes {
@@ -188,5 +189,11 @@ a {
 
     .texto {
         width: auto;
+    }
+
+    @media (max-width: 1969px) {
+        .container {
+            padding: 10%;
+        }
     }
 }
